@@ -1153,3 +1153,21 @@ tr:hover {
         font-size: 1.2rem;
     }
 }
+
+#image-full {
+    display: block;
+}
+
+#image-small {
+    display: none;
+}
+
+@media (max-width: 500px) {
+    #image-full {
+        display: none;
+    }
+    
+    #image-small {
+        display: block;
+    }
+}
