@@ -1178,4 +1178,17 @@ tr:hover {
     #image-small {
         display: block;
     }
+
+    .container {
+        padding: 0 10px;
+    }
+
+    article {
+        padding: 20px 15px;
+    }
+
+    ul, ol {
+        margin: 1.5rem 0 1.5rem 10px;
+        color: #e0e0e0;
+    }   
 }
